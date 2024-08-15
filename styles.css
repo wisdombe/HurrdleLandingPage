@@ -2,10 +2,9 @@
 
 :root {
   --clr-primary-pink: hsl(322, 100%, 66%);
-  --clr-primary-lightpink: hsl(321, 100%, 78%);
-  --clr-primary-lightred: hsl(0, 100%, 63%);
+  --clr-neutral-palecyan: hsl(193, 100%, 96%);
   --clr-neutral-darkcyan: hsl(192, 100%, 9%);
-  --clr-neutral-paleblue: hsl(207, 100%, 98%);
+  --clr-neutral-grayishblue: hsl(208, 11%, 55%);
   --ff-heading: "Poppins";
   --ff-body: "Open Sans";
 }
@@ -14,8 +13,14 @@
 /*-----global style-----*/
 * {
   margin: 0;
-  padding: 0;
+  padding: 0;git
   box-sizing: border-box;
   text-decoration: none;
 }
 /*-----global style-----*/
+
+/*-----body style-----*/
+body {
+  font-size: 18px;
+}
+/*-----body style-----*/
