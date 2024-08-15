@@ -1,0 +1,21 @@
+/*-----root style-----*/
+
+:root {
+  --clr-primary-pink: hsl(322, 100%, 66%);
+  --clr-primary-lightpink: hsl(321, 100%, 78%);
+  --clr-primary-lightred: hsl(0, 100%, 63%);
+  --clr-neutral-darkcyan: hsl(192, 100%, 9%);
+  --clr-neutral-paleblue: hsl(207, 100%, 98%);
+  --ff-heading: "Poppins";
+  --ff-body: "Open Sans";
+}
+/*-----root style-----*/
+
+/*-----global style-----*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/*-----global style-----*/
