@@ -13,7 +13,7 @@
 /*-----global style-----*/
 * {
   margin: 0;
-  padding: 0;git
+  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -24,3 +24,59 @@ body {
   font-size: 18px;
 }
 /*-----body style-----*/
+
+/* header style begins here */
+.huddle_header {
+  display: flex;
+  padding: 50px;
+  width:100%;
+  background-color: var(--clr-neutral-palecyan);
+  background-image: url('assets/bg-hero-desktop.svg');
+  background-size: 100%;
+}
+
+.header_item {
+  flex: 1;
+}
+
+h1 {
+  margin-block-start: 25%;
+  width: 80%;
+  font-family: var(--ff-heading);
+  font-size: 40px;
+}
+
+.header_txt p {
+  width:86%;
+  margin-block-start:30px;
+  font-family: var(--ff-body);
+}
+.illustration_mockups img {
+  width: 100%;
+  margin-block-start: 12%;
+}
+
+.header_txt button {
+  width: 40%;
+  height: 8%;
+  border-radius: 25px;
+  border: none;
+  margin-block-start: 40px;
+  background-color: var(--clr-primary-pink);
+  color: #ffff;
+  font-size: 0.8rem;
+
+}
+.header_txt img {
+  width:35%;
+}
+
+.illustration_mockups button {
+  width: 30%;
+  height: 8%;
+  border-radius: 25px;
+  border: none;
+  float: right;
+  background-color: #ffff;
+  font-size: 0.7rem;
+}
