@@ -47,13 +47,9 @@ h1 {
 }
 
 .header_txt p {
-  width:86%;
+  width:83%;
   margin-block-start:30px;
   font-family: var(--ff-body);
-}
-.illustration_mockups img {
-  width: 100%;
-  margin-block-start: 12%;
 }
 
 .header_txt button {
@@ -71,12 +67,22 @@ h1 {
   width:35%;
 }
 
+.illustration_mockups {
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration_mockups img {
+  width: 100%;
+  margin-block-start: 13%;
+}
+
 .illustration_mockups button {
-  width: 30%;
-  height: 8%;
+  width: 25%;
+  height: 40px;
   border-radius: 25px;
   border: none;
-  float: right;
+  align-self: flex-end;
   background-color: #ffff;
   font-size: 0.7rem;
 }
