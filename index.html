@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Hurddle Landing Page</title>
+    <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
 
     <link rel="stylesheet" href="styles.css" />
 
@@ -20,163 +21,160 @@
 
   <body>
     <!--Head Content of Hurrdle-->
-
-    <header>
-      <div class="huddle_header">
-        <!--input header code here-->
-        <div class="header_item header_txt">
+    <header id="top">
+      <div class="container">
+        <a href="index.html">
           <img src="./assets/logo.svg" alt="Hurddle logo" />
-          <h1>Build The Community Your Fans Will Love</h1>
+        </a>
+        <button>Try It Free</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div>
+          <h1>Build the comunity your fans will love</h1>
           <p>
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
+            Hiddle re-assets the way we build comunities. You have a voice, but
+            so does your audience. Create connections with your users as you
             engage in genuine discussion.
           </p>
           <button>Get Started For Free</button>
         </div>
-
-        <div class="header_item illustration_mockups">
-          <button>Try It Free</button>
-          <img
-            src="./assets/illustration-mockups.svg"
-            alt="illustration-mockups"
-          />
-        </div>
+        <img
+          src="./assets/illustration-mockups.svg"
+          alt="illustration mockup"
+        />
       </div>
-    </header>
+    </section>
 
     <!--Body/Main content of Hurrdle-->
-
-    <main>
-      <section class="hurrdle_main">
-        <!-- Hurrdle main section code -->
-        <div>
-          <h3>Grow Together</h3>
-          <p>
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
-          <img
-            src="./assets/illustration-grow-together.svg"
-            alt="Illustration for Grow Together"
-            height="250"
-            width="250"
-          />
-          <!-- Image height and width are temporarily added, should be removed once CSS is applied -->
+    <main class="container">
+      <section class="styled-section">
+        <div class="styled-card">
+          <div>
+            <h2>Grow Together</h2>
+            <p>
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./assets/illustration-grow-together.svg"
+              alt="Illustration for Grow Together"
+            />
+          </div>
         </div>
-        <div>
-          <h3>Flowing Conversations</h3>
-          <p>
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
-          <img
-            src="./assets/illustration-flowing-conversation.svg"
-            alt="Illustration for Flowing Conversations"
-            height="250"
-            width="250"
-          />
+        <div class="styled-card">
+          <div>
+            <h2>Flowing Conversations</h2>
+            <p>
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./assets/illustration-flowing-conversation.svg"
+              alt="Illustration for Flowing Conversations"
+            />
+          </div>
         </div>
-        <div>
-          <h3>Your Users</h3>
-          <p>
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
-          <img
-            src="./assets/illustration-your-users.svg"
-            alt="Illustration for Your Users"
-            height="250"
-            width="250"
-          />
+        <div class="styled-card">
+          <div>
+            <h2>Your Users</h2>
+            <p>
+              It takes no time at all to integrate Hurddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+          <div>
+            <img
+              src="./assets/illustration-your-users.svg"
+              alt="Illustration for Your Users"
+            />
+          </div>
         </div>
       </section>
     </main>
 
+    <!--Banner-->
+    <div class="container">
+      <div class="banner">
+        <h2>Ready to build your community?</h2>
+        <button>Get started for free</button>
+      </div>
+    </div>
+
     <!--Footer Content of Hurrdle-->
-
     <footer>
-      <section class="hurrdle_footer">
-        <!--input footer code here-->
-        <div class="footer_head">
-          <h2>Ready to build your community</h2>
-          <button>Get started for free</button>
-        </div>
-        <div class="footer_main">
-          <div class="footer_first_column">
-            <span class="huddle_logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M8.625 9.75a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 0 1 .778-.332 48.294 48.294 0 0 0 5.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z"
+      <div class="container">
+        <img src="./assets/logo-footer.svg" alt="Hurddle logo" />
+        <div>
+          <ul>
+            <li>
+              <img src="./assets/icons/location.svg" alt="location icon" />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae aliquid minima impedit eos fuga reiciendis corporis
+            </li>
+            <li>
+              <img src="./assets/icons/phone.svg" alt="phone icon" />
+              1-543-123-4567
+            </li>
+            <li>
+              <img src="./assets/icons/email.svg" alt="email icon" />
+              example@Hurddle.com
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#top">About us</a>
+            </li>
+            <li>
+              <a href="#top">What we do</a>
+            </li>
+            <li>
+              <a href="#top">FAQ</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="#top">Career</a>
+            </li>
+            <li>
+              <a href="#top">Blog</a>
+            </li>
+            <li>
+              <a href="#top">Contact </a>
+            </li>
+          </ul>
+          <ul class="social-icons">
+            <li>
+              <a href="#top">
+                <img src="assets/icons/facebook_icon.png" alt="facebook_icon" />
+              </a>
+            </li>
+            <li>
+              <a href="#top">
+                <img
+                  src="assets/icons/instagram_icon.jpg"
+                  alt="instagram_icon"
                 />
-              </svg>
-
-              <h3>Huddle</h3></span
-            >
-            <span>
-              <img src="assets/icon-location.svg" alt="location icon" />
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-                numquam, maxime tenetur aliquid natus adipisci cumque temporibus
-                quasi impedit minima omnis ipsa aliquam magni earum molestias
-                odio laudantium accusantium quisquam?
-              </p></span
-            >
-            <span>
-              <img src="assets/icon-phone.svg" alt="phone icon" />
-              +154-456-4567</span
-            >
-            <span>
-              <img src="assets/icon-email.svg" alt="messaging icon" />
-              example@gmail.com</span
-            >
-          </div>
-          <div class="footer_second_column">
-            <ul>
-              <li>
-                <a href="#"> About us</a>
-              </li>
-              <li>
-                <a href="#"> what we do</a>
-              </li>
-              <li>
-                <a href="#"> FaQ</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer_third_column">
-            <ul>
-              <li>
-                <a href="#"> career</a>
-              </li>
-              <li>
-                <a href="#"> blog</a>
-              </li>
-              <li>
-                <a href="#"> contact us</a>
-              </li>
-            </ul>
-          </div>
-          <div class="footer_fourth_column">
-            <img src="assets/icons/facebook_icon.png" alt="facebook_icon" />
-            <img src="assets/icons/instagram_icon.jpg" alt="instagram_icon" />
-            <img src="assets/icons/twitter_icon.png" alt="twitter_icon" />
-            <span><p>@copyright 2018 huddle all rights reserved</p> </span>
-          </div>
+              </a>
+            </li>
+            <li>
+              <a href="#top">
+                <img src="assets/icons/twitter_icon.png" alt="twitter_icon" />
+              </a>
+            </li>
+          </ul>
         </div>
-      </section>
+        <p>&copy; Copyright 2023 Hurddle. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
