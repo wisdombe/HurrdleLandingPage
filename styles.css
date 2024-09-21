@@ -346,8 +346,88 @@ footer a:hover {
   margin-block: 3.2rem;
 }
 
+
+/**Media Query For Smaller Screens**/
+
 @media (max-width: 450px) {
+
   .hero {
     height: 90rem;
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  button {
+    font-size: 1.4rem;
+    padding: 1rem 4rem;
+  }
+
+  .styled-card {
+    gap: 3rem;
+    padding: 3rem 1rem;
+  }
+
+  .banner {
+    padding: 4rem 1.5rem;
+  }
+
+  .banner h2 {
+    font-size: 2.4rem;
+  }
+
+  footer div > div {
+    margin-block: 2rem 1rem;
+  }
+
+  footer div p {
+    font-size: 1.4rem;
+  }
+}
+
+/* Media Query For Tablets */
+
+@media (min-width: 767px) and (max-width: 1023px) {
+
+  header {
+    padding-block: 3.5rem;
+  }
+
+  .hero {
+    height: 83rem;
+    background-image: url("./assets/bg-hero-tablet.svg");
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  button {
+    padding: 1.2rem 5rem;
+  }
+
+  .styled-card {
+    padding: 3rem 2rem;
+    gap: 4rem;
+  }
+
+  .banner {
+    padding: 5rem 2rem;
+  }
+
+  footer div > div {
+    margin-block: 3rem 1rem;
+  }
+
+  footer div p {
+    font-size: 1.5rem;
   }
 }
